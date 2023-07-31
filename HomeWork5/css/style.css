@@ -1,0 +1,116 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    padding: 20px;
+    color: grey;
+}
+
+.main{
+    padding: 30px;
+    line-height: 2;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 5px hsla(221, 61%, 50%, 0.453);
+}
+
+.header{
+    background-color: lightskyblue;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.name_input input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+.email input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;    
+}
+.phone input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;  
+}
+.quest1 input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;  
+}
+.quest2 input{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;  
+}
+.quest3 select{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0;  
+}
+.quest4 input{
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0; 
+    color: black;
+  }
+  .quest4{
+    color: black;
+  }
+#q4{
+    color: rgb(50, 99, 204);
+}
+.quest5 input{
+        padding: 5px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        margin: 5px 0; 
+}
+.radio1, .radio2, .radio3{
+    color: black;
+}  
+.quest6 textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: 5px 0; 
+}
+.button button{
+    background-color: rgb(50, 99, 204);
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: white;   
+}
+.button {
+text-align: center;    
+  }
